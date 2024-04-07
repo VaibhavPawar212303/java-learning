@@ -16,3 +16,20 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+In same class package 
+ we have created Two classes and one class inherits the property of another class 
+ which type of data type support in java 
+  int 
+  float 
+  double 
+  long 
+
+  string 
+  char 
+
+  boolen 
+
+
+  
