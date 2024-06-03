@@ -1,0 +1,50 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class demo{
+    void test(){
+       System.out.println("This is object test");
+    }
+}
+
+class alpha extends demo{
+    void alphatest(){
+       System.out.println("This is object test for alpha");
+    }
+}
+
+
+public class HelloWorld extends alpha {
+    
+    void testHelloWorld(){
+        System.out.println("### Accessing Helloworld class method ####");
+    }
+    
+    public static void main(String[] args) {
+        demo d1 = new demo();
+        d1.test();
+        //d1.alphatest(); //cannot access
+        //d1.testHelloWorld(); //cannot access
+        
+        alpha a1 = new alpha();
+        a1.alphatest();
+        System.out.println("### Accessing demo class method ####");
+        a1.test();
+        
+        //create a object of hello world 
+        HelloWorld h1 = new HelloWorld();
+        System.out.println("### Accessing alpha class method ####");
+        h1.alphatest();
+        h1.test();
+        
+    }
+}
+
+
+
+
+
+
+
+
+

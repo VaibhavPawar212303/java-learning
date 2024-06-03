@@ -11,7 +11,7 @@ public class App {
         return totalAmount;
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.out.println("Hello, Please Book Your Ticket!");
         App a1 = new App();
         System.out.println( a1.bookTicket(3));
